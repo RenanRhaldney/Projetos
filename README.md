@@ -1,0 +1,3 @@
+# Python-Exercicios
+Estudando Python...
+Exercicios pego do site https://wiki.python.org.br/ListaDeExercicios
