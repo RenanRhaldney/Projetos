@@ -1,8 +1,8 @@
-sexo = str(input("Informed your sexo.\n"))
+sexo = str(input("Informed your sex.\n"))
 
 if sexo == "F" or sexo == "f":
-    print("Feminino")
+    print("Female")
 elif sexo == "M" or sexo == "m":
-    print("Masculino")
+    print("Male")
 else:
-    print("Sexo invalido.")
+    print("Invalid sex.")

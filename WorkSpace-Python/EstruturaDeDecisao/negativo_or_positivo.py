@@ -1,6 +1,6 @@
 number = float(input("informed one number.\n"))
 
 if number < 0:
-    print("Number informed is negativo.")
+    print("The number informed is negative.")
 else:
-    print("Number informed is positivo.")
+    print("The number informed is positive.")
