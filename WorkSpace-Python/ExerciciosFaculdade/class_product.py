@@ -4,6 +4,7 @@ class Produto:
         self.preco = preco
         self.garantia = garantia
         self.cor = cor
+        self.id = []
 
 
     def atualizar_preco(self, novo_preco):
