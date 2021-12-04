@@ -8,9 +8,9 @@ while verificador != 1:
     senha = input("Senha: ")
 
     if usuario == usuarioCadastrado and senha == senhaCadastrada:
-        print("Voce entrou!")
+        print("ACESSO LIBERADO!")
         verificador = 1
     else:
-        print("Usuario ou senha incorreta, tente novamente.")
+        print("SENHA INVALIDA, ACESSO NEGADO, TENTE NOVAMENTE")
 
 print("FIM")
