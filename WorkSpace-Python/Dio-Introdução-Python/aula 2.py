@@ -10,7 +10,7 @@ divisao = a / b
 # mostra o qual é o tipo da variavel
 print(type(soma))
 
-# para concatenar string com numero
+# para concatenar string com numero utilizasse VIRGULA ,,,,,,
 print('SOMA =', soma)
 print('SUBTRAÇÃO =', subtracao)
 print('MULTIPLICAÇÃO =', multiplicacao)
