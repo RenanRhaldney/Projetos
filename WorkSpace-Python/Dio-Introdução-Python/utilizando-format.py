@@ -6,6 +6,6 @@ subtracao = a - b
 multiplicacao = a * b
 divisao = a / b
 
-print('tipos das variaveis iniciadas no escopo global.\n'
+print('utilizando a função .format().\n'
       'soma = {}\nsubtração = {}\nmultiplicação = {}\ndivisão = {}\nfrase = {}'
       .format(soma, subtracao, multiplicacao, divisao, frase))
