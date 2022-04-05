@@ -17,10 +17,11 @@ class Calculadora:
         return valor_a / valor_b
 
 
-calculadora = Calculadora()
-
-print(calculadora.soma(5, 5))
-print(calculadora.subtracao(5, 5))
-print(calculadora.multiplicacao(2, 5))
-print(calculadora.divisao(25, 5))
+# só vai se executado quando for chamado pelo proprio arquivo
+if __name__ == '__main__':
+    calculadora = Calculadora()
+    print(calculadora.soma(5, 5))
+    print(calculadora.subtracao(5, 5))
+    print(calculadora.multiplicacao(2, 5))
+    print(calculadora.divisao(25, 5))
 

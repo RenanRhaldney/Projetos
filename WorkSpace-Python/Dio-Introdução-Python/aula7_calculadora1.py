@@ -19,10 +19,10 @@ class Calculadora:
         return self.valor_a / self.valor_b
 
 
-calculadora = Calculadora(1, 2)
-
-print(calculadora.soma())
-print(calculadora.subtracao())
-print(calculadora.multiplicacao())
-print(calculadora.divisao())
-
+# só vai se executado quando for chamado pelo proprio arquivo
+if __name__ == '__main__':
+    calculadora = Calculadora(1, 2)
+    print(calculadora.soma())
+    print(calculadora.subtracao())
+    print(calculadora.multiplicacao())
+    print(calculadora.divisao())

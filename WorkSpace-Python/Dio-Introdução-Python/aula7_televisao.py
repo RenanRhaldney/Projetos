@@ -20,21 +20,23 @@ class Televisao:
             self.canal -= 1
 
 
-televisao = Televisao()
+# só vai se executado quando for chamado pelo proprio arquivo
+if __name__ == '__main__':
+    televisao = Televisao()
 
-# True / canal + 1
-televisao.power()
-televisao.aumenta_canal()
-print('Televisão está ligada: {}'.format(televisao.ligada))
-print('aumentando canal: {}\n'.format(televisao.canal))
+    # True / canal + 1
+    televisao.power()
+    televisao.aumenta_canal()
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    print('aumentando canal: {}\n'.format(televisao.canal))
 
-# False / canal - 1
-televisao.power()
-televisao.diminuir_canal()
-print('Televisão está ligada: {}'.format(televisao.ligada))
-print('diminuindo canal: {}\n'.format(televisao.canal))
-# True / canal + 1
-televisao.power()
-televisao.aumenta_canal()
-print('Televisão está ligada: {}'.format(televisao.ligada))
-print('aumentando canal: {}'.format(televisao.canal))
+    # False / canal - 1
+    televisao.power()
+    televisao.diminuir_canal()
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    print('diminuindo canal: {}\n'.format(televisao.canal))
+    # True / canal + 1
+    televisao.power()
+    televisao.aumenta_canal()
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    print('aumentando canal: {}'.format(televisao.canal))
